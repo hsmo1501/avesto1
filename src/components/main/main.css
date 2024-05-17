@@ -1,0 +1,34 @@
+.img {
+  width: auto;
+  height: 60vh;
+ 
+}
+
+@keyframes spin-y {
+  from {
+    transform: rotateY(0deg);
+    filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.5));
+    
+  }
+  to {
+    transform: rotateY(360deg);
+    filter: drop-shadow(0 0 20px rgba(0, 0, 0, 0.8));
+    
+  }
+}
+
+.animate-spin-y {
+  animation: spin-y 4s linear infinite;
+}
+
+.bg-img1{
+  background-image: url('../../assets/bg-siyoma.jpg')
+}
+
+.bg-img2{
+  background-image: url('../../assets/bg_chiltan.jpg')
+}
+
+.bg-img3{
+  background-image: url('../../assets/bg_mall.png')
+}
